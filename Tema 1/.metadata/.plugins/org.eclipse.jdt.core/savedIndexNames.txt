@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+C:\Users\migar\OneDrive\Escritorio\FP\Primero\Programación\Practica\Tema 1\.metadata\.plugins\org.eclipse.jdt.core
+3754306966.index
+1865797976.index
+2521452992.index
