@@ -5,6 +5,11 @@ import java.util.Scanner;
 public class Ejer1 {
 	
 	public static Scanner sc = new Scanner (System.in);
+	
+	/*
+	 * Ejercicio 1: Escribir un programa que pida dos numeros y haga la media aritmetica 
+	 */
+	
 	public static void main(String[] args) {
 		
 		
