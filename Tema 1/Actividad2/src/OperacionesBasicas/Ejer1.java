@@ -19,11 +19,11 @@ public class Ejer1 {
 		
 		//Leo el primer numero 
 		System.out.println("Dame el primer numero: ");
-		n1 = sc.nextInt();
+		n1 = sc.nextFloat();
 		
 		//Leo el segundo numero
 		System.out.println("Dame el segundo numero: ");
-		n2 = sc.nextInt();
+		n2 = sc.nextFloat();
 		
 		//Hago la media aritmetica
 		n3 = (n1 + n2)/2;
