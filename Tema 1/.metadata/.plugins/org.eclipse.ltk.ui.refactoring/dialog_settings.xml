@@ -9,4 +9,17 @@
 		<item key="DIALOG_HEIGHT" value="513"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 	</section>
+	<section name="RefactoringWizard.Clean Up">
+		<item key="width" value="801"/>
+		<item key="height" value="603"/>
+	</section>
+	<section name="org.eclipse.ltk.ui.refactoring.settings">
+	</section>
+	<section name="CleanUpRefactoringWizard.dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="560"/>
+		<item key="DIALOG_Y_ORIGIN" value="9"/>
+		<item key="DIALOG_WIDTH" value="819"/>
+		<item key="DIALOG_HEIGHT" value="858"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
 </section>
