@@ -21,12 +21,12 @@ public class Ejer8 {
 		
 		if (num1 > num2) {
 			id = num2 % num1;
-			mayor = num2;
-			menor = num1;
-		}else {
-			id = num1 % num2;
 			mayor = num1;
 			menor = num2;
+		}else {
+			id = num1 % num2;
+			mayor = num2;
+			menor = num1;
 		}
 		
 		if (id == 0) {
