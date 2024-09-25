@@ -17,19 +17,25 @@ public class Ejer3 {
 		System.out.println("Dame el numero de segundos: ");
 		temp = sc.nextInt();
 		
-		//Calculo el numero de horas
-		hora = temp / 3600;
+		if (temp > 0) {
+			//Calculo el numero de horas
+			hora = temp / 3600;
+			
+			temp = temp - hora*3600;
+			
+			//Calculo el numero de minutos
+			min = temp / 60;
+			
+			//Hacemos el resto de los segundos no contados en los minutos
+			sec = temp - min*60;
+			
+			System.out.println(temp + " segundos son " + hora + " horas, " + min + " minutos y " + sec + " segundos.");
+			 
+		}else {
+			System.out.println("El tiempo no puede ser negativo");
+		}
 		
-		temp = temp - hora*3600;
 		
-		//Calculo el numero de minutos
-		min = temp / 60;
-		
-		//Hacemos el resto de los segundos no contados en los minutos
-		sec = temp - min*60;
-		
-		System.out.println(temp + " segundos son " + hora + " horas, " + min + " minutos y " + sec + " segundos.");
-		 
 		
 	}
 }
