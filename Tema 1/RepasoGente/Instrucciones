@@ -7,8 +7,10 @@ Esto es para evitar que se ejecute todo el codigo del archivo
 
 Intentare cubrir todo lo que vayamos dando y cualquier cosa extra que querais saber o que vayamos dando, avisarme y lo revisaré
 
+Recomiendo mirar las cosas en orden, ya que se explican las cosas desde un nivel basico y va aumentando la dificltad
 Las cosas que se han implementado son: 
- - Scanner
- - If
+ - Scanner, carpeta "Scanner"
+ - Imprimir por pantalla, carpeta "Syso"
+ - If, carpeta "SentenciasIf"
  - While
  - For
