@@ -7,6 +7,9 @@ Esto es para evitar que se ejecute todo el codigo del archivo
 
 Intentare cubrir todo lo que vayamos dando y cualquier cosa extra que querais saber o que vayamos dando, avisarme y lo revisaré
 
+En los ejemplos que haya mas de una variable del mismo tipo, se declararan todas en la misma linea.
+No afecta en nada, es uda decisión estetica
+
 Recomiendo mirar las cosas en orden, ya que se explican las cosas desde un nivel basico y va aumentando la dificltad
 Las cosas que se han implementado son: 
  - Scanner, carpeta "Scanner"
