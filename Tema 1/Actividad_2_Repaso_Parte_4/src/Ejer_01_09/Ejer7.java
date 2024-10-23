@@ -24,8 +24,29 @@ public class Ejer7 {
 		
 		while(operación != -1) {
 			
+			System.out.println("Cual es el valor de A: ");
+			A = sc.nextInt();
+			
+			System.out.println("Cual es el valor de B: ");
+			B = sc.nextInt();
+			
 			System.out.println("¿Que operaciones desea realizar?");
-			System.out.println();
+			System.out.println("1 Raiz cuadrada de la suma de A y B");
+			System.out.println("2 A/B");
+			System.out.println("3 (A*B)/2.5");
+			operación = sc.nextInt();
+			
+			if(operación == 1) {
+				System.out.println(Math.sqrt(A+B));
+			}else if (operación == 2) {
+				if(B == 0) {
+					System.out.println("No se puede hacer esta operación");
+				}else {
+					System.out.println((double)A/B);
+				}
+			}else if (operación == 3) {
+				System.out.println((A*B)/2.5);
+			}
 		}
 	}
 }
