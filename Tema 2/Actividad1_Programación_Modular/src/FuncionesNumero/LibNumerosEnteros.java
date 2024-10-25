@@ -9,7 +9,20 @@ public class LibNumerosEnteros {
 	 * @return int
 	 */
 	public static int sumaCifrasNumero(int num) {
-		return 0;
+		
+		if (num == 0) {
+			return 0;
+		} else if(num < 0) {
+			System.out.println("ERROR numero negativo");
+			return -1;
+		} else {
+			int suma = 0;
+			while(num > 10) {
+				suma += (num%10);
+				num = num / 10;
+			}
+			return suma;
+		}
 	}
 
 	/**
@@ -19,7 +32,13 @@ public class LibNumerosEnteros {
 	 * @return boolean
 	 */
 	public static boolean esPrimo(int num) {
-		return false;
+		
+		for (int div = 2; div < num; div++) {
+			if(num%div == 0) {
+				return false;
+			}
+		}
+		return true;
 	}
 
 	/**
