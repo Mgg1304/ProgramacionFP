@@ -1,4 +1,4 @@
-package Ejer01_09;
+package Ejer;
 
 import java.util.Scanner;
 import Lib.Lib;

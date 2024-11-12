@@ -1,8 +1,8 @@
-package Ejer01_09;
+package Ejer;
 
 import Lib.Lib;
 
-public class Ejer02 {
+public class Ejer02_a {
 	
 	public static void main(String[] args) {
 		

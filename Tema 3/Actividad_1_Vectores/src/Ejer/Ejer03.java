@@ -1,9 +1,9 @@
-package Ejer01_09;
+package Ejer;
 
 import java.util.Scanner;
 import Lib.Lib;
 
-public class Ejer04 {
+public class Ejer03 {
 
 	public static Scanner sc = new Scanner(System.in);
 
