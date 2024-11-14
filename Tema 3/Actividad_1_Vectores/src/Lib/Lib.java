@@ -17,7 +17,7 @@ public class Lib {
 			System.out.println("[" + i + "]: " + v[i]);
 		}
 	}
-	
+
 	/**
 	 * 
 	 * @param v
@@ -308,16 +308,16 @@ public class Lib {
 		}
 		return false;
 	}
-	
+
 	public static int buscarValor(int[] v, int valor) {
 		int contador = 0;
-		
+
 		for (int i = 0; i < v.length; i++) {
-			if(valor == v[i]) {
+			if (valor == v[i]) {
 				contador++;
 			}
 		}
-		
+
 		return contador;
 	}
 
